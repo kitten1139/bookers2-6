@@ -11,5 +11,5 @@ class RelationshipsController < ApplicationController
     follower.destroy
     redirect_to request.referrer || root_path
   end
-  
+
 end
